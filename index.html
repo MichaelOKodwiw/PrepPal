@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PrepPal | Discover Delicious Meals</title>
+    <link href="styles.css" rel="stylesheet"/>
+</head>
+<body>
+
+    <header class="app-header">
+        <h1>PrepPal</h1>
+        <p>Welcome to PrepPal! Helping you find meal prep recipes that you will love!</p>
+    </header>
+    
+    <main class="app-container">
+        <section class="search-section">
+            <div class="search-box">
+                <input
+                    type="text"
+                    id="search-input"
+                    placeholder="e.g. tomato, chicken, pasta..."
+                    aria-label="Search ingredients"
+                >
+                <button id="search-btn">Search Recipes</button>
+            </div>
+        </section>
+
+        <section class="results-section">
+            <div id="results-grid"></div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 PrepPal. Built with modern web standards.</p>
+    </footer>
+
+    <script src="app.js"></script>
+</body>
+</html>
